@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jvnet.jaxb2_commons</groupId>
+  <artifactId>jaxb2-basics-runtime</artifactId>
+  <version>9999.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>JAXB Tools :: JAXB Basics :: Runtime [old groupId fixed version]</name>
+  <description>
+    This is an empty jar to help people with relocation informations and also
+    override org.jvnet.jaxb2_commons:jaxb2-basics-runtime versions below v2
+    when you have both org.jvnet.jaxb2_commons:jaxb2-basics-runtime and
+    org.jvnet.jaxb:jaxb2-basics-runtime artifacts in the same application
+  </description>
+  <parent>
+    <groupId>org.jvnet.jaxb</groupId>
+    <artifactId>jaxb-basics-project</artifactId>
+    <version>2.0.9</version>
+  </parent>
+</project>
+
