@@ -13,7 +13,13 @@
   </description>
   <parent>
     <groupId>org.jvnet.jaxb</groupId>
-    <artifactId>jaxb-basics-project</artifactId>
+    <artifactId>jaxb-tools-project</artifactId>
     <version>2.0.9</version>
   </parent>
+  <url>https://github.com/laurentschoelens/jaxb2-basics-empty</url>
+  <scm>
+    <connection>scm:git:https://github.com/laurentschoelens/jaxb2-basics-empty.git</connection>
+    <url>https://github.com/laurentschoelens/jaxb2-basics-empty</url>
+    <tag>${project.version}</tag>
+  </scm>
 </project>
